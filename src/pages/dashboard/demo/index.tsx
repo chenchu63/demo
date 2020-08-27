@@ -88,6 +88,21 @@ class demo extends Component {
      */
     getUsersOption = (users) =>{
         return {
+			title: {
+			  text: "1000",
+			  x: 'center',
+			  y: 'center',
+			  textStyle: {
+				 fontSize: 14,
+				 fontWeight: 'bold',
+				 color: 'blue'
+			  },
+			  subtext: "用户总数\n",
+			  subtextStyle: {
+				  fontSize: 14,
+				  color: 'black'
+			  }
+			},
 			tooltip: {
 				trigger: 'item',
 				formatter: '{a} <br/>{b}: {c} ({d}%)'
@@ -137,6 +152,21 @@ class demo extends Component {
 				left: 10,
 				data: ['建设单位', '施工单位']
 			},
+			title: {
+			  text: "100",
+			  x: 'center',
+			  y: 'center',
+			  textStyle: {
+				 fontSize: 14,
+				 fontWeight: 'bold',
+				 color: 'blue'
+			  },
+			  subtext: "单位总数\n",
+			  subtextStyle: {
+				  fontSize: 14,
+				  color: 'black'
+			  }
+			},
 			color: ["#0099e5", "#88cc44"],
 			series: [
 				{
@@ -177,11 +207,46 @@ class demo extends Component {
 				left: 10,
 				data: ['匹配资源成功的资产', '待匹配资源的资产']
 			},
-			color: ["#0099e5", "#b6cbff"],
+			title: {
+			  text: "1000",
+			  x: 'center',
+			  y: 'center',
+			  textStyle: {
+				 fontSize: 14,
+				 fontWeight: 'bold',
+				 color: 'blue'
+			  },
+			  subtext: "资产卡片数\n",
+			  subtextStyle: {
+				  fontSize: 14,
+				  color: 'black'
+			  }
+			},
+			color: ["#0099e5", "#b9b8b8"],
 			series: [
 				{
 					type: 'pie',
 					radius: ['50%', '70%'],
+					avoidLabelOverlap: false,
+					label: {
+						show: false,
+						position: 'center'
+					},
+					emphasis: {
+						label: {
+							show: false,
+							fontSize: '30',
+							fontWeight: 'bold'
+						}
+					},
+					labelLine: {
+						show: false
+					},
+					data: compatible
+				},
+				{
+					type: 'pie',
+					radius: ['45%', '50%'],
 					avoidLabelOverlap: false,
 					label: {
 						show: false,
