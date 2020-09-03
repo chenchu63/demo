@@ -29,12 +29,12 @@ class demo extends Component {
 						{value: 23, name: '管理员'},
 						{value: 69, name: '其他'}
 			],
-			accounts: [
-                {value: 1046, name: '注册用户'},
-                {value: 621, name: '历史登录用户'},
-                {value: 581, name: '活跃用户'},
-                {value: 118, name: '当前登录用户'}
-            ]
+			accounts: {
+				register: 1046,
+				login: 621,
+				active: 581,
+				today: 118
+			}
         }
     }
 	
@@ -59,14 +59,14 @@ class demo extends Component {
 					sort: 'descending',
 					label: {
 						show: true,
-						position: 'inside'
-					},
-					labelLine: {
-						length: 10,
-						lineStyle: {
-							width: 1,
-							type: 'solid'
-						}
+						position: 'inside',
+						formatter: dataLabel => {
+							if (dataLabel.name === '当前登录用户') {
+								return "当前"+'\n'+"登录"+'\n';
+							}else{
+								return dataLabel.name;
+							}
+						},
 					},
 					itemStyle: {
 						borderColor: '#fff',
@@ -77,7 +77,58 @@ class demo extends Component {
 							fontSize: 20
 						}
 					},
-					data: accounts
+					data: [
+						{value: 100, name: '注册用户'},
+						{value: 75, name: '历史登录用户'},
+						{value: 50, name: '活跃用户'},
+						{value: 25, name: '当前登录用户'}
+					]
+				},
+				{
+					type:'funnel',
+					top: 5,
+					bottom: 5,
+					left: 20,
+					right: 5,
+					width: '80%',
+					sort: 'descending',
+					label: {
+						show: true,
+						fontSize: 10,
+						formatter: dataLabel => {
+							let num = 0;
+							if (dataLabel.name === '注册用户') {
+								num = accounts ? accounts.register : 0;
+							} else if (dataLabel.name === '历史登录用户') {
+								num = accounts ? accounts.login : 0;
+							} else if (dataLabel.name === '活跃用户') {
+								num = accounts ? accounts.active : 0;
+							} else if (dataLabel.name === '当前登录用户') {
+								num = accounts ? accounts.today : 0;
+							}
+							return (typeof num != 'undefined' ? num : 0);
+						},
+					},
+					labelLine: {
+						lineStyle: {
+							type: 'dashed',
+						},
+					},
+					itemStyle: {
+						borderColor: '#fff',
+						borderWidth: 1
+					},
+					emphasis: {
+						label: {
+							fontSize: 20
+						}
+					},
+					data: [
+						{value: 100, name: '注册用户'},
+						{value: 75, name: '历史登录用户'},
+						{value: 50, name: '活跃用户'},
+						{value: 25, name: '当前登录用户'}
+					]
 				}
 			]
 		};
@@ -89,13 +140,13 @@ class demo extends Component {
     getUsersOption = (users) =>{
         return {
 			title: {
-			  text: "1000",
-			  x: 'center',
+			  text: " " + "1000",
+			  x: '57%',
 			  y: 'center',
 			  textStyle: {
-				 fontSize: 14,
+				 fontSize: 16,
 				 fontWeight: 'bold',
-				 color: 'blue'
+				 color: '#1890ff'
 			  },
 			  subtext: "用户总数\n",
 			  subtextStyle: {
@@ -107,7 +158,8 @@ class demo extends Component {
 				trigger: 'item',
 				formatter: '{a} <br/>{b}: {c} ({d}%)'
 			},
-			color: ["#0099e5","#b6cbff","#00dbc2","#88cc44","#f13f84","#b9b8b8"],
+			hoverAnimation: false,
+			animation: false,
 			legend: {
 				orient: 'vertical',
 				left: 10,
@@ -116,7 +168,31 @@ class demo extends Component {
 			series: [
 				{
 					type: 'pie',
-					radius: ['50%', '70%'],
+					color: ["#0099e5","#b6cbff","#00dbc2","#88cc44","#f13f84","#b9b8b8"],
+					radius: ['75%', '95%'],
+					center: ['65%', '50%'],
+					avoidLabelOverlap: false,
+					label: {
+						show: false,
+						position: 'center'
+					},
+					emphasis: {
+						label: {
+							show: false,
+							fontSize: '30',
+							fontWeight: 'bold'
+						}
+					},
+					labelLine: {
+						show: false
+					},
+					data: users
+				},
+				{
+					type: 'pie',
+					color: ["black","black","black","black","red","black"],
+					radius: ['70%', '76%'],
+					center: ['65%', '50%'],
 					avoidLabelOverlap: false,
 					label: {
 						show: false,
@@ -152,14 +228,16 @@ class demo extends Component {
 				left: 10,
 				data: ['建设单位', '施工单位']
 			},
+			hoverAnimation: false,
+			animation: false,
 			title: {
-			  text: "100",
-			  x: 'center',
+			  text: "  " + "100",
+			  x: '52%',
 			  y: 'center',
 			  textStyle: {
-				 fontSize: 14,
+				 fontSize: 16,
 				 fontWeight: 'bold',
-				 color: 'blue'
+				 color: '#1890ff'
 			  },
 			  subtext: "单位总数\n",
 			  subtextStyle: {
@@ -171,7 +249,29 @@ class demo extends Component {
 			series: [
 				{
 					type: 'pie',
-					radius: ['50%', '70%'],
+					radius: ['75%', '95%'],
+					center: ['60%', '50%'],
+					avoidLabelOverlap: false,
+					label: {
+						show: false,
+						position: 'center'
+					},
+					emphasis: {
+						label: {
+							show: false,
+							fontSize: '30',
+							fontWeight: 'bold'
+						}
+					},
+					labelLine: {
+						show: false
+					},
+					data: companies
+				},
+				{
+					type: 'pie',
+					radius: ['70%', '76%'],
+					center: ['60%', '50%'],
 					avoidLabelOverlap: false,
 					label: {
 						show: false,
@@ -207,14 +307,16 @@ class demo extends Component {
 				left: 10,
 				data: ['匹配资源成功的资产', '待匹配资源的资产']
 			},
+			hoverAnimation: false,
+			animation: false,
 			title: {
-			  text: "1000",
-			  x: 'center',
+			  text: "1000000",
+			  x: '50%',
 			  y: 'center',
 			  textStyle: {
-				 fontSize: 14,
+				 fontSize: 16,
 				 fontWeight: 'bold',
-				 color: 'blue'
+				 color: '#1890ff'
 			  },
 			  subtext: "资产卡片数\n",
 			  subtextStyle: {
@@ -226,7 +328,8 @@ class demo extends Component {
 			series: [
 				{
 					type: 'pie',
-					radius: ['50%', '70%'],
+					radius: ['75%', '95%'],
+					center: ['60%', '50%'],
 					avoidLabelOverlap: false,
 					label: {
 						show: false,
@@ -246,7 +349,8 @@ class demo extends Component {
 				},
 				{
 					type: 'pie',
-					radius: ['45%', '50%'],
+					radius: ['71%', '76%'],
+					center: ['60%', '50%'],
 					avoidLabelOverlap: false,
 					label: {
 						show: false,
@@ -272,32 +376,15 @@ class demo extends Component {
      * 新增待转资物料与资产柱状图
      */
     getNewAssetsOption = (materials,assets) =>{
+		let xYear = (new Date).getUTCFullYear() + "年";
+
         return {
 			grid: [{
-				left: '0',  
+				left: '5',  
 				right: '0',  
 				bottom: '0',  
 				top: '10%',  
 				containLabel: true  
-			}],
-			yAxis: [{
-				splitLine: {
-					show: false,
-					lineStyle: {
-					   color: ['#dbdbdb'],
-					   width: 1,
-					   type: 'solid'
-				  }
-			　　}
-			},{
-				splitLine: {
-					show: false,
-					lineStyle: {
-					   color: ['#dbdbdb'],
-					   width: 1,
-					   type: 'solid'
-				  }
-			　　}
 			}],
 			color: ["#0099e5", "#88cc44"],
             tooltip: {},
@@ -305,20 +392,48 @@ class demo extends Component {
                 data:['新增待转资物料','新增资产']
             },
             xAxis: {
-                data: ["2020-01","2020-02","2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12"]
-            },
-            yAxis: {},
+				axisLine: {
+					show: true,
+					lineStyle: {
+						color: '#8a8a8a',
+						width: 1,
+						type: 'solid'
+					  }
+				},
+                data: [xYear+"1月", xYear+"2月", xYear+"3月", xYear+"4月", xYear+"5月", xYear+"6月", xYear+"7月", xYear+"8月", xYear+"9月", xYear+"10月", xYear+"11月", xYear+"12月"]
+			},
+			yAxis: [
+				{
+					type: 'value',
+					splitLine: {
+						show: true,
+						lineStyle: {
+							color: '#ececec',
+							width: 1,
+							type: 'solid'
+						  }
+					},
+					axisLine: {
+						show: true,
+						lineStyle: {
+							color: '#8a8a8a',
+							width: 1,
+							type: 'solid'
+						  }
+					}
+				}
+			],
             series: [{
                 name: '新增待转资物料',
                 type: 'bar',
-				barWidth: 40,
-				barGap: '5%',
+				barWidth: 20,
+				barGap: '8%',
                 data: materials
             },
             {
                 name: '新增资产',
                 type: 'bar',
-				barWidth: 40,
+				barWidth: 20,
                 data: assets
             }]
         };
@@ -328,6 +443,11 @@ class demo extends Component {
 		const {materials,assets,accounts,users,companies,compatible} = this.state;
 		return (
 			<div className={styles.container_box}>
+				<div className={styles.eyebrow}>
+					<div className={styles.eyebrow_date}><span>上线时间：</span><span className={styles.eyebrow_text}>2020年4月7日</span></div>
+					<div className={styles.eyebrow_longth}><span>运行时间：</span><span className={styles.eyebrow_text}>188天</span></div>
+				</div>
+			<div className={styles.content_chart_box}>
 				<div className={styles.firstRow}>
 					<Row gutter={32}>
 						<Col span={6}>
@@ -336,7 +456,7 @@ class demo extends Component {
 								    <span>账号统计</span>
 							    </div>
 								} className={styles.firstRowCard} bordered={false}>
-								<ReactEcharts style={{width: '100%', height: '170px'}} option={this.getAccountsOption(accounts)}/>
+								<ReactEcharts style={{width: '100%', height: '180px'}} option={this.getAccountsOption(accounts)}/>
 							</Card>
 						</Col>
 						<Col span={6}>
@@ -345,7 +465,7 @@ class demo extends Component {
 								  <span>用户统计</span>
 								</div>
 								} className={styles.firstRowCard} bordered={false}>
-								<ReactEcharts style={{width: '100%', height: '170px'}} option={this.getUsersOption(users)}/>
+								<ReactEcharts style={{width: '100%', height: '180px'}} option={this.getUsersOption(users)}/>
 							</Card>
 						</Col>
 						<Col span={6}>
@@ -354,7 +474,7 @@ class demo extends Component {
 								  <span>单位统计</span>
 								</div>
 								} className={styles.firstRowCard} bordered={false}>
-								<ReactEcharts style={{width: '100%', height: '170px'}} option={this.getCompaniesOption(companies)} />
+								<ReactEcharts style={{width: '100%', height: '180px'}} option={this.getCompaniesOption(companies)} />
 							</Card>
 						</Col>
 						<Col span={6}>
@@ -363,7 +483,7 @@ class demo extends Component {
 								  <span>纳入一体化管理的资产卡片</span>
 								</div>
 								} className={styles.firstRowCard} bordered={false}>
-								<ReactEcharts style={{width: '100%', height: '170px'}} option={this.getCardsOption(compatible)} />
+								<ReactEcharts style={{width: '100%', height: '180px'}} option={this.getCardsOption(compatible)} />
 							</Card>
 						</Col>
 					</Row>
@@ -376,13 +496,13 @@ class demo extends Component {
 								  <span>新增待转资物料与资产</span>
 								</div>
 								} className={styles.secondRowCard} bordered={false}>
-								<ReactEcharts style={{width: '100%', height: '200px'}} option={this.getNewAssetsOption(materials,assets)} />
+								<ReactEcharts style={{width: '100%', height: '250px'}} option={this.getNewAssetsOption(materials,assets)} />
 							</Card>
 						</Col>
 					</Row>
 				</div>
 				<div className={styles.thirdRow}>
-          <Carousel dots={false} autoplay>
+          <Carousel dotPosition={'bottom'} autoplay>
             <div>
               <Row gutter={32}>
                 <Col span={6}>
@@ -552,9 +672,10 @@ class demo extends Component {
                 </Col>
               </Row>
             </div>
-          </Carousel>
-				</div>
+            </Carousel>
 			</div>
+		</div>
+		</div>
 		);
 	}
 }

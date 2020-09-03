@@ -67,7 +67,7 @@ export default defineConfig({
           routes: [
             {
               path: '/',
-              redirect: '/dashboard/demo',
+              redirect: '/dashboard/knowledge_map',
             },
             {
               path: '/dashboard',
@@ -75,7 +75,19 @@ export default defineConfig({
               icon: 'dashboard',
               routes: [
 				{
-                  name: 'analysis',
+                  name: 'knowledge',
+                  icon: 'smile',
+                  path: '/dashboard/knowledge_map',
+                  component: './dashboard/knowledge_map',
+                },
+				{
+                  name: 'graph',
+                  icon: 'smile',
+                  path: '/dashboard/graph',
+                  component: './dashboard/graph',
+                },
+				{
+                  name: 'demo',
                   icon: 'smile',
                   path: '/dashboard/demo',
                   component: './dashboard/demo',

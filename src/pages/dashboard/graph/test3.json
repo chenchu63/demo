@@ -1,0 +1,2803 @@
+{
+  "nodes": [
+    {
+      "id": "cda01",
+      "type": "cda",
+      "label": "病例概要"
+    },
+    {
+      "id": "cda02",
+      "type": "cda",
+      "label": "门急诊病例"
+    },
+    {
+      "id": "cda03",
+      "type": "cda",
+      "label": "急诊留观病例"
+    },
+    {
+      "id": "cda04",
+      "type": "cda",
+      "label": "西药处方"
+    },
+    {
+      "id": "cda05",
+      "type": "cda",
+      "label": "中药处方"
+    },
+    {
+      "id": "cda06",
+      "type": "cda",
+      "label": "检查记录子集"
+    },
+    {
+      "id": "cda07",
+      "type": "cda",
+      "label": "检验记录子集"
+    },
+    {
+      "id": "cda08",
+      "type": "cda",
+      "label": "治疗记录子集"
+    },
+    {
+      "id": "cda09",
+      "type": "cda",
+      "label": "一般手术记录子集"
+    },
+    {
+      "id": "cda10",
+      "type": "cda",
+      "label": "麻醉术前访视记录"
+    },
+    {
+      "id": "cda11",
+      "type": "cda",
+      "label": "麻醉记录"
+    },
+    {
+      "id": "cda12",
+      "type": "cda",
+      "label": "麻醉术后访视记录"
+    },
+    {
+      "id": "cda13",
+      "type": "cda",
+      "label": "输血记录子集"
+    },
+    {
+      "id": "cda14",
+      "type": "cda",
+      "label": "待产记录子集"
+    },
+    {
+      "id": "cda15",
+      "type": "cda",
+      "label": "阴道分娩记录子集"
+    },
+    {
+      "id": "cda16",
+      "type": "cda",
+      "label": "剖宫产手术记录子集"
+    },
+    {
+      "id": "cda17",
+      "type": "cda",
+      "label": "一般护理记录子集"
+    },
+    {
+      "id": "cda18",
+      "type": "cda",
+      "label": "病危(重)护理记录子集"
+    },
+    {
+      "id": "cda19",
+      "type": "cda",
+      "label": "手术护理记录子集"
+    },
+    {
+      "id": "cda20",
+      "type": "cda",
+      "label": "生命体征测量记录子集"
+    },
+    {
+      "id": "cda21",
+      "type": "cda",
+      "label": "出入量记录子集"
+    },
+    {
+      "id": "cda22",
+      "type": "cda",
+      "label": "高值耗材使用记录子集"
+    },
+    {
+      "id": "cda23",
+      "type": "cda",
+      "label": "入院评估记录子集"
+    },
+    {
+      "id": "cda24",
+      "type": "cda",
+      "label": "护理计划记录子集"
+    },
+    {
+      "id": "cda25",
+      "type": "cda",
+      "label": "出院评估与指导记录子集"
+    },
+    {
+      "id": "cda26",
+      "type": "cda",
+      "label": "手术同意书记录子集"
+    },
+    {
+      "id": "cda27",
+      "type": "cda",
+      "label": "麻醉知情同意书记录子集"
+    },
+    {
+      "id": "cda28",
+      "type": "cda",
+      "label": "输血治疗同意书"
+    },
+    {
+      "id": "cda29",
+      "type": "cda",
+      "label": "特殊检查及治疗同意书"
+    },
+    {
+      "id": "cda30",
+      "type": "cda",
+      "label": "病危（重）通知书"
+    },
+    {
+      "id": "cda31",
+      "type": "cda",
+      "label": "其他知情同意书"
+    },
+    {
+      "id": "cda3233",
+      "type": "cda",
+      "label": "中医住院病案首页记录"
+    },
+    {
+      "id": "cda34",
+      "type": "cda",
+      "label": "入院记录"
+    },
+    {
+      "id": "cda35",
+      "type": "cda",
+      "label": "24h内入出院记录"
+    },
+    {
+      "id": "cda36",
+      "type": "cda",
+      "label": "24h内入院死亡记录"
+    },
+    {
+      "id": "cda37",
+      "type": "cda",
+      "label": "首次病程记录"
+    },
+    {
+      "id": "cda38",
+      "type": "cda",
+      "label": "日常病程记录"
+    },
+    {
+      "id": "cda39",
+      "type": "cda",
+      "label": "上级医师查房记录"
+    },
+    {
+      "id": "cda40",
+      "type": "cda",
+      "label": "疑难病例讨论"
+    },
+    {
+      "id": "cda41",
+      "type": "cda",
+      "label": "交接班"
+    },
+    {
+      "id": "cda42",
+      "type": "cda",
+      "label": "转科记录"
+    },
+    {
+      "id": "cda43",
+      "type": "cda",
+      "label": "阶段小结"
+    },
+    {
+      "id": "cda44",
+      "type": "cda",
+      "label": "抢救记录"
+    },
+    {
+      "id": "cda45",
+      "type": "cda",
+      "label": "会诊记录"
+    },
+    {
+      "id": "cda46",
+      "type": "cda",
+      "label": "术前小结"
+    },
+    {
+      "id": "cda47",
+      "type": "cda",
+      "label": "术前讨论"
+    },
+    {
+      "id": "cda48",
+      "type": "cda",
+      "label": "术后首次病程"
+    },
+    {
+      "id": "cda49",
+      "type": "cda",
+      "label": "出院记录"
+    },
+    {
+      "id": "cda50",
+      "type": "cda",
+      "label": "死亡记录"
+    },
+    {
+      "id": "cda51",
+      "type": "cda",
+      "label": "死亡病例讨论"
+    },
+    {
+      "id": "cda52",
+      "type": "cda",
+      "label": "住院医嘱"
+    },
+    {
+      "id": "cda53",
+      "type": "cda",
+      "label": "出院小结子集"
+    },
+    {
+      "id": "collection01",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "患者基本信息子集"
+    },
+    {
+      "id": "collection02",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "门(急)诊病历子集"
+    },
+    {
+      "id": "collection03",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "急诊留观病历子集"
+    },
+    {
+      "id": "collection04",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "西药处方子集"
+    },
+    {
+      "id": "collection05",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "中药处方子集"
+    },
+    {
+      "id": "collection06",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "检查记录子集"
+    },
+    {
+      "id": "collection07",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "检验记录子集"
+    },
+    {
+      "id": "collection08",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "治疗记录子集"
+    },
+    {
+      "id": "collection09",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "一般手术记录子集"
+    },
+    {
+      "id": "collection10",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "麻醉术前访视记录子集"
+    },
+    {
+      "id": "collection11",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "麻醉记录子集"
+    },
+    {
+      "id": "collection12",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "麻醉术后访视记录子集"
+    },
+    {
+      "id": "collection13",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "输血记录子集"
+    },
+    {
+      "id": "collection14",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "待产记录子集"
+    },
+    {
+      "id": "collection15",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "阴道分娩记录子集"
+    },
+    {
+      "id": "collection16",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "剖宫产手术记录子集"
+    },
+    {
+      "id": "collection17",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "一般护理记录子集"
+    },
+    {
+      "id": "collection18",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "病危(重)护理记录子集"
+    },
+    {
+      "id": "collection19",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "手术护理记录子集"
+    },
+    {
+      "id": "collection20",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "生命体征测量记录子集"
+    },
+    {
+      "id": "collection21",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "出入量记录子集"
+    },
+    {
+      "id": "collection22",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "高值耗材使用记录子集"
+    },
+    {
+      "id": "collection23",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "入院评估记录子集"
+    },
+    {
+      "id": "collection24",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "护理计划记录子集"
+    },
+    {
+      "id": "collection25",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "出院评估与指导记录子集"
+    },
+    {
+      "id": "collection26",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "手术同意书子集"
+    },
+    {
+      "id": "collection27",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "麻醉知情同意书子集"
+    },
+    {
+      "id": "collection28",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "输血治疗同意书子集"
+    },
+    {
+      "id": "collection29",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "特殊检查及特殊治疗同意书子集"
+    },
+    {
+      "id": "collection30",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "病危（重）通知书子集"
+    },
+    {
+      "id": "collection31",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "其他知情同意书子集"
+    },
+    {
+      "id": "collection3233",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "中医住院病案首页子集"
+    },
+    {
+      "id": "collection34",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "入院记录子集"
+    },
+    {
+      "id": "collection35",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "24h内入出院记录子集"
+    },
+    {
+      "id": "collection36",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "24h内入院死亡记录子集"
+    },
+    {
+      "id": "collection37",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "首次病程记录子集"
+    },
+    {
+      "id": "collection38",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "日常病程记录子集"
+    },
+    {
+      "id": "collection39",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "上级医师查房记录子集"
+    },
+    {
+      "id": "collection40",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "疑难病例讨论子集"
+    },
+    {
+      "id": "collection41",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "交接班记录子集"
+    },
+    {
+      "id": "collection42",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "转科记录子集"
+    },
+    {
+      "id": "collection43",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "阶段小结子集"
+    },
+    {
+      "id": "collection44",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "抢救记录子集"
+    },
+    {
+      "id": "collection45",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "会诊记录子集"
+    },
+    {
+      "id": "collection46",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "术前小结子集"
+    },
+    {
+      "id": "collection47",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "术前讨论子集"
+    },
+    {
+      "id": "collection48",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "术后首次病程记录子集"
+    },
+    {
+      "id": "collection49",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "出院记录子集"
+    },
+    {
+      "id": "collection50",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "死亡记录子集"
+    },
+    {
+      "id": "collection51",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "死亡病例讨论记录子集"
+    },
+    {
+      "id": "collection52",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "住院医嘱子集"
+    },
+    {
+      "id": "collection53",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "出院小结子集"
+    },
+    {
+      "id": "collection54",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "基本健康信息子集"
+    },
+    {
+      "id": "collection55",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "卫生事件摘要子集"
+    },
+    {
+      "id": "collection56",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "医疗费用记录子集"
+    },
+    {
+      "id": "collection57",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "住院病案首页子集"
+    },
+    {
+      "id": "collection58",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "转诊（院）记录子集"
+    },
+    {
+      "id": "collection59",
+      "type": "collection",
+      "color": "#28c9cc",
+      "label": "医疗机构信息子集"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service01",
+      "label": "电子病历文档注册服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service02",
+      "label": "病历文档检索服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service03",
+      "label": "电子病历文档调阅服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service04",
+      "label": "新增个人身份注册服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service05",
+      "label": "个人信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service06",
+      "label": "个人信息合并服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service07",
+      "label": "个人基本信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service08",
+      "label": "新增医疗卫生人员注册服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service09",
+      "label": "医疗卫生人员信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service10",
+      "label": "医疗卫生人员信息查询服务：",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service11",
+      "label": "新增医疗卫生机构(科室)注册服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service12",
+      "label": "医疗卫生机构(科室)信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service13",
+      "label": "医疗卫生机构(科室)信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service14",
+      "label": "医嘱信息接收服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service15",
+      "label": "医嘱信息更新服务：",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service16",
+      "label": "医嘱查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service17",
+      "label": "检验申请信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service18",
+      "label": "检验申请信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service19",
+      "label": "检验申请信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service20",
+      "label": "检查申请信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service21",
+      "label": "检查申请信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service22",
+      "label": "检查申请信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service23",
+      "label": "输血申请信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service24",
+      "label": "输血申请信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service25",
+      "label": "输血申请信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service26",
+      "label": "手术申请信息服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service27",
+      "label": "手术申请信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service28",
+      "label": "手术申请信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service29",
+      "label": "病理申请信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service30",
+      "label": "病理申请信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service31",
+      "label": "病理申请信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service32",
+      "label": "就诊卡信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service33",
+      "label": "就诊卡信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service34",
+      "label": "就诊卡信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service35",
+      "label": "号源排班新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service36",
+      "label": "号源排班更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service37",
+      "label": "号源排班查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service38",
+      "label": "门诊挂号新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service39",
+      "label": "门诊挂号更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service40",
+      "label": "门诊挂号查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service41",
+      "label": "住院就诊登记服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service42",
+      "label": "住院就诊更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service43",
+      "label": "住院就诊查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service44",
+      "label": "住院转科信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service45",
+      "label": "住院转科信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service46",
+      "label": "住院转科信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service47",
+      "label": "出院登记信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service48",
+      "label": "出院登记信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service49",
+      "label": "出院登记信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service50",
+      "label": "术语注册服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service51",
+      "label": "术语更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service52",
+      "label": "术语查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service53",
+      "label": "普通检验结果信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service54",
+      "label": "普通检验结果信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service55",
+      "label": "普通检验结果信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service56",
+      "label": "医嘱执行状态信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service57",
+      "label": "医嘱执行状态信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service58",
+      "label": "检查状态信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service59",
+      "label": "检查状态信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service60",
+      "label": "检验状态信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service61",
+      "label": "检验状态信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service62",
+      "label": "药敏检验结果信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service63",
+      "label": "药敏检验结果信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service64",
+      "label": "药敏检验结果信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service65",
+      "label": "检查结果信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service66",
+      "label": "检查结果信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service67",
+      "label": "检查结果信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service68",
+      "label": "病理结果信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service69",
+      "label": "病理结果信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service70",
+      "label": "病理结果信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service71",
+      "label": "手术排班信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service72",
+      "label": "手术排班信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service73",
+      "label": "手术排班信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service74",
+      "label": "手术状态信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service75",
+      "label": "手术状态信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service76",
+      "label": "门诊预约状态信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service77",
+      "label": "门诊预约状态信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service78",
+      "label": "门诊预约状态信息查询服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service79",
+      "label": "检查预约状态信息新增服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service80",
+      "label": "检查预约状态信息更新服务",
+      "type": "service"
+    },
+    {
+      "color": "#c8a788",
+      "id": "service81",
+      "label": "检查预约状态信息查询服务",
+      "type": "service"
+    },
+    {
+      "id": "HDSD00_0101_DZ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_地址"
+    },
+    {
+      "id": "HDSD00_0101_FWDXBS",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_服务对象标识"
+    },
+    {
+      "id": "HDSD00_0101_GTWXXBS",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_个体危险性标识"
+    },
+    {
+      "id": "HDSD00_0101_HZZLBGJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者资料变更记录"
+    },
+    {
+      "id": "HDSD00_0101_LXR",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_联系人"
+    },
+    {
+      "id": "HDSD00_0101_RKX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_人口学"
+    },
+    {
+      "id": "HDSD00_0101_TX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_通信"
+    },
+    {
+      "id": "HDSD00_0101_YB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "患者基本信息_医保"
+    },
+    {
+      "id": "HDSD00_0102_BRWZCDPGJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病人危重程度评估记录"
+    },
+    {
+      "id": "HDSD00_0102_GH",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊_挂号"
+    },
+    {
+      "id": "HDSD00_0102_MJZYBJS",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊医保结算"
+    },
+    {
+      "id": "HDSD00_0102_MJZZFJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊支付记录"
+    },
+    {
+      "id": "HDSD00_0102_MJZZZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊症状记录"
+    },
+    {
+      "id": "HDSD00_0102_YFCFHJMXJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "药房处方划价明细记录"
+    },
+    {
+      "id": "HDSD00_0102_YFCFHJZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "药房处方划价主记录"
+    },
+    {
+      "id": "HDSD00_0102_ZYBZFXJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊中医辨证分型记录"
+    },
+    {
+      "id": "HDSD00_0103_BLQXXXJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病历缺陷消息记录"
+    },
+    {
+      "id": "HDSD00_0103_BLWJSY",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病历文件索引"
+    },
+    {
+      "id": "HDSD00_0103_BLXGJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病历修改记录"
+    },
+    {
+      "id": "HDSD00_0103_BLZDB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病历诊断表"
+    },
+    {
+      "id": "HDSD00_0103_BRRYDJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病人入院登记"
+    },
+    {
+      "id": "HDSD00_0103_BRZSY",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病人主索引"
+    },
+    {
+      "id": "HDSD00_0103_BRZYXXB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病人在院信息表"
+    },
+    {
+      "id": "HDSD00_0103_BRZYZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病人住院主记录"
+    },
+    {
+      "id": "HDSD00_0103_BSZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入出院记录_病史子表"
+    },
+    {
+      "id": "HDSD00_0103_CRBBGK",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "传染病报告卡"
+    },
+    {
+      "id": "HDSD00_0103_CYPGYZDJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "出院评估与指导记录"
+    },
+    {
+      "id": "HDSD00_0103_CYXJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "出院小结"
+    },
+    {
+      "id": "HDSD00_0103_CYYZZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "出院记录_出院医嘱子表"
+    },
+    {
+      "id": "HDSD00_0103_HLBLNRJLB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "护理病历内容记录表"
+    },
+    {
+      "id": "HDSD00_0103_HLBLWJSYB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "护理病历文件索引表"
+    },
+    {
+      "id": "HDSD00_0103_HLJLZD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "护理记录字典"
+    },
+    {
+      "id": "HDSD00_0103_JJBJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "交接班记录"
+    },
+    {
+      "id": "HDSD00_0103_MJZZLFSZLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊诊疗放射治疗记录"
+    },
+    {
+      "id": "HDSD00_0103_RCBCJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "日常病程记录"
+    },
+    {
+      "id": "HDSD00_0103_RCYJLZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入出院记录_主表"
+    },
+    {
+      "id": "HDSD00_0103_RYPGJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入院评估记录"
+    },
+    {
+      "id": "HDSD00_0103_RYZKJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入院转科记录"
+    },
+    {
+      "id": "HDSD00_0103_RYZKSQ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入院转科申请"
+    },
+    {
+      "id": "HDSD00_0103_SCBCJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "首次病程记录"
+    },
+    {
+      "id": "HDSD00_0103_TGJSZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入出院记录_体格检查子表"
+    },
+    {
+      "id": "HDSD00_0103_TWDTZXMSJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "体温单体征项目数据"
+    },
+    {
+      "id": "HDSD00_0103_TWDTZXMZD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "体温单体征项目字典"
+    },
+    {
+      "id": "HDSD00_0103_YSCYZDSSZD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "医生常用诊断、手术字典"
+    },
+    {
+      "id": "HDSD00_0103_ZDJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "诊断记录"
+    },
+    {
+      "id": "HDSD00_0103_ZD_LAHENG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "诊断拉横表"
+    },
+    {
+      "id": "HDSD00_0103_ZYBL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "职业暴露"
+    },
+    {
+      "id": "HDSD00_0103_ZYYJJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院预交金"
+    },
+    {
+      "id": "HDSD00_0103_ZYZLFSZLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院诊疗放射治疗记录"
+    },
+    {
+      "id": "HDSD00_0104_CFZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊处方_主表"
+    },
+    {
+      "id": "HDSD00_0104_FYZZXJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "非药嘱执行记录"
+    },
+    {
+      "id": "HDSD00_0104_HZBYQRB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "会诊被邀请人表"
+    },
+    {
+      "id": "HDSD00_0104_HZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "会诊记录"
+    },
+    {
+      "id": "HDSD00_0104_HZSQ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "会诊申请"
+    },
+    {
+      "id": "HDSD00_0104_MZPB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门诊排班"
+    },
+    {
+      "id": "HDSD00_0104_XYCFMX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊处方_西药明细子表"
+    },
+    {
+      "id": "HDSD00_0104_YZZXJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "药嘱执行记录"
+    },
+    {
+      "id": "HDSD00_0104_ZTHLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "整体护理记录主表"
+    },
+    {
+      "id": "HDSD00_0104_ZTHLJLZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "整体护理记录子表"
+    },
+    {
+      "id": "HDSD00_0104_ZYCFMX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊处方_中药明细子表"
+    },
+    {
+      "id": "HDSD00_0104_ZYPB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院排班"
+    },
+    {
+      "id": "HDSD00_0104_ZYYZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院医嘱记录"
+    },
+    {
+      "id": "HDSD00_0104_ZZHLBB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "重症护理报告"
+    },
+    {
+      "id": "HDSD00_0104_ZZYZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "重症医嘱记录"
+    },
+    {
+      "id": "HDSD00_0104_ZZZRZCJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "重症转入转出记录"
+    },
+    {
+      "id": "HDSD00_0105_BAZYB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病案摘要表"
+    },
+    {
+      "id": "HDSD00_0105_FZJC",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入出院记录_辅助检查子表"
+    },
+    {
+      "id": "HDSD00_0105_QJJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "抢救记录"
+    },
+    {
+      "id": "HDSD00_0105_RYZD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入院诊断"
+    },
+    {
+      "id": "HDSD00_0105_SJYSCFJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "上级医师查房记录"
+    },
+    {
+      "id": "HDSD00_0105_SWBLTLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "死亡病例讨论记录"
+    },
+    {
+      "id": "HDSD00_0105_SWJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "死亡记录"
+    },
+    {
+      "id": "HDSD00_0105_YNBLTL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "疑难病例讨论表"
+    },
+    {
+      "id": "HDSD00_0105_ZDZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入出院记录_诊断子表"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASY",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASYFY",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页_费用"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASYICU",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页_ICU"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASYSS",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页_手术"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASYSX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页_输血"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASYZD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页_诊断"
+    },
+    {
+      "id": "HDSD00_0105_ZYBASYZK",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院病案首页_转科"
+    },
+    {
+      "id": "HDSD00_0105_ZYJDXJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院_阶段小结"
+    },
+    {
+      "id": "HDSD00_0106_BWZHLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病危（重）护理记录"
+    },
+    {
+      "id": "HDSD00_0106_CRLJLZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "出入量记录_子表"
+    },
+    {
+      "id": "HDSD00_0106_CRLZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "出入量记录_主表"
+    },
+    {
+      "id": "HDSD00_0106_HLZLJCGYB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "护理质量监测指标概要表"
+    },
+    {
+      "id": "HDSD00_0106_HLZLJCSJB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "护理质量监测指标数据表"
+    },
+    {
+      "id": "HDSD00_0106_SLCSJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "生理参数记录"
+    },
+    {
+      "id": "HDSD00_0106_SMTZCLJLZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "生命体征测量记录_子表"
+    },
+    {
+      "id": "HDSD00_0106_SMTZCLZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "生命体征测量记录_主表"
+    },
+    {
+      "id": "HDSD00_0106_TWJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "体温记录"
+    },
+    {
+      "id": "HDSD00_0106_YWJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "药物记录"
+    },
+    {
+      "id": "HDSD00_0107_HSSQD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "护士申请单"
+    },
+    {
+      "id": "HDSD00_0107_JYBGJG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检验报告结果"
+    },
+    {
+      "id": "HDSD00_0107_JYJGMX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检验结果明细"
+    },
+    {
+      "id": "HDSD00_0107_JYSQXM",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检验申请项目"
+    },
+    {
+      "id": "HDSD00_0107_JYSQZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检验申请_主表"
+    },
+    {
+      "id": "HDSD00_0107_JYSQZBYB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检验申请_子表_样本"
+    },
+    {
+      "id": "HDSD00_0107_JYYQSB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检验仪器设备"
+    },
+    {
+      "id": "HDSD00_0107_XJJYJG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "细菌检验结果"
+    },
+    {
+      "id": "HDSD00_0107_XMBG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "项目报告"
+    },
+    {
+      "id": "HDSD00_0107_YMJYJG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "药敏检验结果"
+    },
+    {
+      "id": "HDSD00_0108_BLJCBG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病理检查报告"
+    },
+    {
+      "id": "HDSD00_0108_BLJCSQ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "病理检查申请"
+    },
+    {
+      "id": "HDSD00_0108_DXSBB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "大型设备表"
+    },
+    {
+      "id": "HDSD00_0108_JCBBJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检查标本记录"
+    },
+    {
+      "id": "HDSD00_0108_JCBWB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检查部位表"
+    },
+    {
+      "id": "HDSD00_0108_JCJGJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检查结果记录"
+    },
+    {
+      "id": "HDSD00_0108_JCSQZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检查申请_主表"
+    },
+    {
+      "id": "HDSD00_0108_JCSQZBMX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "检查申请_子表_明细"
+    },
+    {
+      "id": "HDSD00_0108_YXJCJG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "影像检查结果"
+    },
+    {
+      "id": "HDSD00_0109_DCJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "待产记录"
+    },
+    {
+      "id": "HDSD00_0109_GRBLDJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "感染病例登记"
+    },
+    {
+      "id": "HDSD00_0109_MZQHZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "麻醉前会诊记录"
+    },
+    {
+      "id": "HDSD00_0109_MZSHFSJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "麻醉术后访视记录"
+    },
+    {
+      "id": "HDSD00_0109_MZSQFSJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "麻醉术前访视记录表"
+    },
+    {
+      "id": "HDSD00_0109_MZYYMX",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "麻醉用药明细"
+    },
+    {
+      "id": "HDSD00_0109_PGCSSJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "剖宫产手术记录"
+    },
+    {
+      "id": "HDSD00_0109_SHSCBCJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "术后首次病程记录"
+    },
+    {
+      "id": "HDSD00_0109_SHXJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "术后小结"
+    },
+    {
+      "id": "HDSD00_0109_SQTL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "术前讨论"
+    },
+    {
+      "id": "HDSD00_0109_SQXJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "术前小结"
+    },
+    {
+      "id": "HDSD00_0109_SSDJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "手术登记"
+    },
+    {
+      "id": "HDSD00_0109_SSHLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "手术护理记录"
+    },
+    {
+      "id": "HDSD00_0109_SSMZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "手术麻醉记录"
+    },
+    {
+      "id": "HDSD00_0109_SSMZZJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "手术麻醉总结"
+    },
+    {
+      "id": "HDSD00_0109_SSPB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "手术排班"
+    },
+    {
+      "id": "HDSD00_0109_SSSQD",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "手术申请单"
+    },
+    {
+      "id": "HDSD00_0109_SSZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "入出院记录_手术子表"
+    },
+    {
+      "id": "HDSD00_0109_WKSSGRJCJG",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "外科手术感染监测结果"
+    },
+    {
+      "id": "HDSD00_0109_YBHLJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "一般护理记录"
+    },
+    {
+      "id": "HDSD00_0109_YDFMJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "阴道分娩记录"
+    },
+    {
+      "id": "HDSD00_0109_ZYSSMXB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院手术明细表"
+    },
+    {
+      "id": "HDSD00_0109_ZYSXJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "住院输血记录"
+    },
+    {
+      "id": "HDSD00_0110_CZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊_操作记录"
+    },
+    {
+      "id": "HDSD00_0110_JZJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门急诊_就诊记录"
+    },
+    {
+      "id": "HDSD00_0110_ZDJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "诊断记录表"
+    },
+    {
+      "id": "HDSD00_0112_TJDJB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "体检登记表"
+    },
+    {
+      "id": "HDSD00_0112_TJDJJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "体检登记记录"
+    },
+    {
+      "id": "HDSD00_0112_TJJKPJ",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "体检健康评价"
+    },
+    {
+      "id": "HDSD00_0203_MZFYZB",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "门诊费用主表"
+    },
+    {
+      "id": "HDSD00_0204_GZHCSYJL",
+      "color": "#36bc8d",
+      "type": "table",
+      "label": "高值耗材使用记录"
+    }
+  ],
+  "edges": [
+    {
+      "source": "collection01",
+      "target": "HDSD00_0101_DZ"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0101_FWDXBS"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0103_BRRYDJ"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0103_BSZB"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0105_ZDZB"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0105_ZYBASY"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0109_SSZB"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0105_ZYBASYFY"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection01",
+      "target": "HDSD00_0203_MZFYZB"
+    },
+    {
+      "source": "collection02",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection02",
+      "target": "HDSD00_0102_MJZZZJL"
+    },
+    {
+      "source": "collection02",
+      "target": "HDSD00_0102_ZYBZFXJL"
+    },
+    {
+      "source": "collection02",
+      "target": "HDSD00_0104_ZYYZJL"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0102_MJZZZJL"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0102_ZYBZFXJL"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0104_ZYYZJL"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0105_FZJC"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0105_QJJL"
+    },
+    {
+      "source": "collection03",
+      "target": "HDSD00_0110_JZJL"
+    },
+    {
+      "source": "collection04",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection04",
+      "target": "HDSD00_0104_CFZB"
+    },
+    {
+      "source": "collection04",
+      "target": "HDSD00_0104_XYCFMX"
+    },
+    {
+      "source": "collection05",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection05",
+      "target": "HDSD00_0104_CFZB"
+    },
+    {
+      "source": "collection05",
+      "target": "HDSD00_0104_ZYCFMX"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0108_JCSQZB"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0101_FWDXBS"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0105_QJJL"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0109_SSMZJL"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0108_JCBBJL"
+    },
+    {
+      "source": "collection06",
+      "target": "HDSD00_0108_JCJGJL"
+    },
+    {
+      "source": "collection07",
+      "target": "HDSD00_0107_JYSQZB"
+    },
+    {
+      "source": "collection07",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection07",
+      "target": "HDSD00_0107_JYJGMX"
+    },
+    {
+      "source": "collection07",
+      "target": "HDSD00_0107_JYSQZBYB"
+    },
+    {
+      "source": "collection08",
+      "target": "HDSD00_0104_ZYYZJL"
+    },
+    {
+      "source": "collection08",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection08",
+      "target": "HDSD00_0106_CRLZB"
+    },
+    {
+      "source": "collection08",
+      "target": "HDSD00_0105_QJJL"
+    },
+    {
+      "source": "collection08",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0109_MZSQFSJL"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0109_MZSHFSJL"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0109_ZYSSMXB"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0109_SSMZJL"
+    },
+    {
+      "source": "collection09",
+      "target": "HDSD00_0109_ZYSXJL"
+    },
+    {
+      "source": "collection10",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection10",
+      "target": "HDSD00_0109_MZSQFSJL"
+    },
+    {
+      "source": "collection10",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0109_SSMZJL"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0109_SSMZJL"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0106_CRLZB"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0104_ZYYZJL"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0109_ZYSXJL"
+    },
+    {
+      "source": "collection11",
+      "target": "HDSD00_0109_ZYSSMXB"
+    },
+    {
+      "source": "collection12",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection12",
+      "target": "HDSD00_0109_MZSHFSJL"
+    },
+    {
+      "source": "collection12",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection13",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection13",
+      "target": "HDSD00_0109_ZYSXJL"
+    },
+    {
+      "source": "collection13",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection14",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection14",
+      "target": "HDSD00_0101_DZ"
+    },
+    {
+      "source": "collection14",
+      "target": "HDSD00_0109_DCJL"
+    },
+    {
+      "source": "collection14",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection15",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection15",
+      "target": "HDSD00_0101_DZ"
+    },
+    {
+      "source": "collection15",
+      "target": "HDSD00_0109_YDFMJL"
+    },
+    {
+      "source": "collection15",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection16",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection16",
+      "target": "HDSD00_0101_DZ"
+    },
+    {
+      "source": "collection16",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection17",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection17",
+      "target": "HDSD00_0109_YBHLJL"
+    },
+    {
+      "source": "collection18",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection18",
+      "target": "HDSD00_0106_BWZHLJL"
+    },
+    {
+      "source": "collection19",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection19",
+      "target": "HDSD00_0109_SSHLJL"
+    },
+    {
+      "source": "collection20",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection20",
+      "target": "HDSD00_0106_SMTZCLZB"
+    },
+    {
+      "source": "collection20",
+      "target": "HDSD00_0106_SMTZCLJLZB"
+    },
+    {
+      "source": "collection21",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection21",
+      "target": "HDSD00_0109_YBHLJL"
+    },
+    {
+      "source": "collection22",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection22",
+      "target": "HDSD00_0204_GZHCSYJL"
+    },
+    {
+      "source": "collection23",
+      "target": "HDSD00_0103_RYPGJL"
+    },
+    {
+      "source": "collection23",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection23",
+      "target": "HDSD00_0101_TX"
+    },
+    {
+      "source": "collection23",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection23",
+      "target": "HDSD00_0103_RYPGJL"
+    },
+    {
+      "source": "collection24",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection24",
+      "target": "HDSD00_0109_YBHLJL"
+    },
+    {
+      "source": "collection25",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection25",
+      "target": "HDSD00_0103_CYPGYZDJL"
+    },
+    {
+      "source": "collection3233",
+      "target": "HDSD00_0105_ZYBASY"
+    },
+    {
+      "source": "collection3233",
+      "target": "HDSD00_0105_ZYBASYZD"
+    },
+    {
+      "source": "collection3233",
+      "target": "HDSD00_0105_ZYBASYSS"
+    },
+    {
+      "source": "collection3233",
+      "target": "HDSD00_0105_ZYBASYFY"
+    },
+    {
+      "source": "collection34",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection35",
+      "target": "HDSD00_0101_DZ"
+    },
+    {
+      "source": "collection35",
+      "target": "HDSD00_0103_RYPGJL"
+    },
+    {
+      "source": "collection35",
+      "target": "HDSD00_0103_CYXJ"
+    },
+    {
+      "source": "collection35",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection35",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection36",
+      "target": "HDSD00_0101_DZ"
+    },
+    {
+      "source": "collection36",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection36",
+      "target": "HDSD00_0105_ZDZB"
+    },
+    {
+      "source": "collection36",
+      "target": "HDSD00_0105_SWJL"
+    },
+    {
+      "source": "collection36",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection37",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection37",
+      "target": "HDSD00_0103_SCBCJL"
+    },
+    {
+      "source": "collection38",
+      "target": "HDSD00_0103_RCBCJL"
+    },
+    {
+      "source": "collection38",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection39",
+      "target": "HDSD00_0105_SJYSCFJL"
+    },
+    {
+      "source": "collection39",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection40",
+      "target": "HDSD00_0105_YNBLTL"
+    },
+    {
+      "source": "collection40",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection41",
+      "target": "HDSD00_0103_JJBJL"
+    },
+    {
+      "source": "collection41",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection42",
+      "target": "HDSD00_0103_RYZKJL"
+    },
+    {
+      "source": "collection42",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection43",
+      "target": "HDSD00_0105_ZYJDXJ"
+    },
+    {
+      "source": "collection43",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection44",
+      "target": "HDSD00_0105_QJJL"
+    },
+    {
+      "source": "collection44",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection45",
+      "target": "HDSD00_0104_HZSQ"
+    },
+    {
+      "source": "collection45",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection45",
+      "target": "HDSD00_0104_HZBYQRB"
+    },
+    {
+      "source": "collection45",
+      "target": "HDSD00_0104_HZJL"
+    },
+    {
+      "source": "collection46",
+      "target": "HDSD00_0109_SQXJ"
+    },
+    {
+      "source": "collection46",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection46",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection47",
+      "target": "HDSD00_0109_SQTL"
+    },
+    {
+      "source": "collection47",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection48",
+      "target": "HDSD00_0109_SHSCBCJL"
+    },
+    {
+      "source": "collection48",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection48",
+      "target": "HDSD00_0101_LXR"
+    },
+    {
+      "source": "collection49",
+      "target": "HDSD00_0103_CYXJ"
+    },
+    {
+      "source": "collection49",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection49",
+      "target": "HDSD00_0103_RCYJLZB"
+    },
+    {
+      "source": "collection50",
+      "target": "HDSD00_0105_SWJL"
+    },
+    {
+      "source": "collection50",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection51",
+      "target": "HDSD00_0105_SWBLTLJL"
+    },
+    {
+      "source": "collection51",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection52",
+      "target": "HDSD00_0104_ZYYZJL"
+    },
+    {
+      "source": "collection52",
+      "target": "HDSD00_0101_RKX"
+    },
+    {
+      "source": "collection53",
+      "target": "HDSD00_0103_CYXJ"
+    },
+    {
+      "source": "collection53",
+      "target": "HDSD00_0101_RKX"
+    },
+
+    {
+      "source": "cda01",
+      "target": "collection01"
+    },
+    {
+      "source": "cda01",
+      "target": "collection54"
+    },
+    {
+      "source": "cda01",
+      "target": "collection55"
+    },
+    {
+      "source": "cda01",
+      "target": "collection56"
+    },
+    {
+      "source": "cda02",
+      "target": "collection02"
+    },
+    {
+      "source": "cda03",
+      "target": "collection03"
+    },
+    {
+      "source": "cda04",
+      "target": "collection04"
+    },
+    {
+      "source": "cda05",
+      "target": "collection05"
+    },
+    {
+      "source": "cda06",
+      "target": "collection06"
+    },
+    {
+      "source": "cda07",
+      "target": "collection07"
+    },
+    {
+      "source": "cda03",
+      "target": "collection03"
+    },
+    {
+      "source": "cda08",
+      "target": "collection08"
+    },
+    {
+      "source": "cda09",
+      "target": "collection09"
+    },
+    {
+      "source": "cda10",
+      "target": "collection10"
+    },
+    {
+      "source": "cda11",
+      "target": "collection11"
+    },
+    {
+      "source": "cda12",
+      "target": "collection12"
+    },
+    {
+      "source": "cda13",
+      "target": "collection13"
+    },
+    {
+      "source": "cda14",
+      "target": "collection14"
+    },
+    {
+      "source": "cda15",
+      "target": "collection15"
+    },
+    {
+      "source": "cda16",
+      "target": "collection16"
+    },
+    {
+      "source": "cda17",
+      "target": "collection17"
+    },
+    {
+      "source": "cda18",
+      "target": "collection18"
+    },
+    {
+      "source": "cda19",
+      "target": "collection19"
+    },
+    {
+      "source": "cda20",
+      "target": "collection20"
+    },
+    {
+      "source": "cda21",
+      "target": "collection21"
+    },
+    {
+      "source": "cda22",
+      "target": "collection22"
+    },
+    {
+      "source": "cda23",
+      "target": "collection23"
+    },
+    {
+      "source": "cda24",
+      "target": "collection24"
+    },
+    {
+      "source": "cda25",
+      "target": "collection25"
+    },
+    {
+      "source": "cda26",
+      "target": "collection26"
+    },
+    {
+      "source": "cda27",
+      "target": "collection27"
+    },
+    {
+      "source": "cda28",
+      "target": "collection28"
+    },
+    {
+      "source": "cda29",
+      "target": "collection29"
+    },
+    {
+      "source": "cda30",
+      "target": "collection30"
+    },
+    {
+      "source": "cda31",
+      "target": "collection31"
+    },
+    {
+      "source": "cda3233",
+      "target": "collection3233"
+    },
+    {
+      "source": "cda34",
+      "target": "collection34"
+    },
+    {
+      "source": "cda35",
+      "target": "collection35"
+    },
+    {
+      "source": "cda36",
+      "target": "collection36"
+    },
+    {
+      "source": "cda37",
+      "target": "collection37"
+    },
+    {
+      "source": "cda38",
+      "target": "collection38"
+    },
+    {
+      "source": "cda39",
+      "target": "collection39"
+    },
+    {
+      "source": "cda40",
+      "target": "collection40"
+    },
+    {
+      "source": "cda41",
+      "target": "collection41"
+    },
+    {
+      "source": "cda42",
+      "target": "collection42"
+    },
+    {
+      "source": "cda43",
+      "target": "collection43"
+    },
+    {
+      "source": "cda44",
+      "target": "collection44"
+    },
+    {
+      "source": "cda45",
+      "target": "collection45"
+    },
+    {
+      "source": "cda46",
+      "target": "collection46"
+    },
+    {
+      "source": "cda47",
+      "target": "collection47"
+    },
+    {
+      "source": "cda48",
+      "target": "collection48"
+    },
+    {
+      "source": "cda49",
+      "target": "collection49"
+    },
+    {
+      "source": "cda50",
+      "target": "collection50"
+    },
+    {
+      "source": "cda51",
+      "target": "collection51"
+    },
+    {
+      "source": "cda52",
+      "target": "collection52"
+    },
+    {
+      "source": "cda53",
+      "target": "collection53"
+    }
+
+
+  ]
+}
